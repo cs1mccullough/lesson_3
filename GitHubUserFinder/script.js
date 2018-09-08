@@ -6,8 +6,6 @@ function getGithubInfo(user) {
     xhttp.open("GET", url, false);
     xhttp.send();
 
- //   mine=xhttp.responseText;
- //   //console.log('username was: '+user);
     return xhttp;
 }
 
