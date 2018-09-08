@@ -33,7 +33,7 @@ $(document).ready(function(){
     });
 
 //3.Write events handlers such that whenever any item in the favorite colors is clicked or hovered, the color gets displayed in the preview div
-    
+
     $('#colors').on('mouseover', '.item', function(){
        previewColor=$('.preview').css('background-color');
        color = $(this).css("background-color");
